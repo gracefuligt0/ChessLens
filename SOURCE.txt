@@ -1,8 +1,8 @@
-ChessLens v1.3.0 corresponding source and build instructions:
-https://github.com/gracefuligt0/ChessLens/tree/v1.3.0
-https://github.com/gracefuligt0/ChessLens/releases/tag/v1.3.0
+ChessLens v1.3.1 corresponding source and build instructions:
+https://github.com/gracefuligt0/ChessLens/tree/v1.3.1
+https://github.com/gracefuligt0/ChessLens/releases/tag/v1.3.1
 
-The release includes ChessLens-v1.3.0-Source.zip containing the app, build scripts,
+The release includes ChessLens-v1.3.1-Source.zip containing the app, build scripts,
 browser connector sources, artwork licenses and Stockfish 19's corresponding source.
 
 Stockfish source is also in src/assets/engine/stockfish in the repository/source ZIP.

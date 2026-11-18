@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "ChessLens \u2014 Chess.com Connector",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "Local Stockfish analysis, board markers and optional visual title badges. Never plays moves.",
   "host_permissions": [
     "https://www.chess.com/*",

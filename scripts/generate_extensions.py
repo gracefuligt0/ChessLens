@@ -5,7 +5,7 @@ ROOT=Path(__file__).resolve().parents[1]
 
 def generate():
     shared=ROOT/'browser-extension/shared'
-    base={'manifest_version':3,'name':'ChessLens — Chess.com Connector','version':'1.3.0',
+    base={'manifest_version':3,'name':'ChessLens — Chess.com Connector','version':'1.3.1',
           'description':'Local Stockfish analysis, board markers and optional visual title badges. Never plays moves.',
           'host_permissions':['https://www.chess.com/*','https://chess.com/*','http://127.0.0.1:37391/*'],
           'content_scripts':[

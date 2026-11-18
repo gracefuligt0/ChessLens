@@ -2,7 +2,7 @@
 import hashlib,zipfile,argparse
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
-VERSION='1.3.0'
+VERSION='1.3.1'
 
 def zip_folder(source,path,prefix,include=lambda path:True):
     with zipfile.ZipFile(path,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as archive:

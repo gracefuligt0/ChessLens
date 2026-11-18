@@ -9,7 +9,7 @@ ChessLens is a Windows desktop companion that reads a Chess.com board from your 
 ## Download and run
 
 1. Open **[the latest release](https://github.com/gracefuligt0/ChessLens/releases/latest)**.
-2. Under **Assets**, download **`ChessLens-v1.3.0-Windows-x64.zip`**. Choose the Windows ZIP, rather than GitHub's “Source code” download, if you just want to run the app.
+2. Under **Assets**, download **`ChessLens-v1.3.1-Windows-x64.zip`**. Choose the Windows ZIP, rather than GitHub's “Source code” download, if you just want to run the app.
 3. Right-click the ZIP, choose **Extract All**, and extract it into a folder you can keep.
 4. Open the extracted **ChessLens** folder and run **`ChessLens.exe`**. Keep `_internal` and the connector folders beside it.
 5. Connect your browser using the steps below, then refresh your Chess.com tab. Analysis updates automatically as the position changes.
@@ -44,6 +44,10 @@ Quick suggestions appear first, then the search refines them. The app checks ful
 Open **Options** in the desktop bubble. Under **Visual title badges**, independently enable a title for **yourself**, **your opponent**, or both. Choose **GM, IM, FM, CM, WGM, WIM, WFM or WCM**. Turn either checkbox off to restore that player's normal title display.
 
 These are local cosmetic badges. They do not edit accounts, ratings, credentials or what your opponent sees. Hover text identifies them as custom ChessLens titles.
+
+Badges sit directly before the username on the same line, after the avatar. Ratings, flags and material displays retain their normal positions. Connector **1.3.1** fixes placement on nested player headers; reload the connector and refresh Chess.com after updating.
+
+![Example of custom titles aligned with the player name](docs/title-placement.png)
 
 ## Sounds and controls
 
