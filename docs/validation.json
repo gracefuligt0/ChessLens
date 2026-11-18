@@ -1,0 +1,45 @@
+{
+  "version": "1.3.0",
+  "regression_checks": 88,
+  "browsers": {
+    "chrome": {
+      "passed": true,
+      "browser_version": "156.0.8078.4",
+      "five_markers": true,
+      "per_player_titles": true,
+      "independent_toggle": true,
+      "native_title_restored": true
+    },
+    "edge": {
+      "passed": true,
+      "browser_version": "157.0.4341.60",
+      "five_markers": true,
+      "per_player_titles": true,
+      "independent_toggle": true,
+      "native_title_restored": true
+    },
+    "brave": {
+      "passed": true,
+      "browser_version": "157.0.8103.79",
+      "five_markers": true,
+      "per_player_titles": true,
+      "independent_toggle": true,
+      "native_title_restored": true
+    },
+    "firefox": {
+      "passed": true,
+      "browser_version": "157.0",
+      "temporary_addon_id": "chesslens@local.invalid",
+      "five_markers": true,
+      "per_player_titles": true,
+      "independent_toggle": true
+    }
+  },
+  "packaged": true,
+  "public_media": [
+    "cburnett GPL-2.0-or-later",
+    "merida GPL-2.0-or-later",
+    "original CC0 chime"
+  ],
+  "local_titles_only": true
+}

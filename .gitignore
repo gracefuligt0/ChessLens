@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+.venv-build/
+build/
+dist/
+*.spec
+*.exe
+*.dll
+*.pyd
+*.nnue
+release-artifacts/
+.env
+*.log
+calibration.npz
+custom-brilliant.wav
+.DS_Store
